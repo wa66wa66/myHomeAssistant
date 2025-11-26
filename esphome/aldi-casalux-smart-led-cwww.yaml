@@ -63,18 +63,18 @@ bk72xx:
 #
 
 dashboard_import:
-  package_import_url: github://roving-ronin/myhomeassistant/esphome/aldi-casalux-smart-led-cwww.yaml@main
+  package_import_url: github://wa66wa66/myhomeassistant/esphome/aldi-casalux-smart-led-cwww.yaml@main
   import_full_config: false
 
 packages:
   base-config:
-    url: https://github.com/roving-ronin/myhomeassistant
+    url: https://github.com/wa66wa66/myhomeassistant
     ref: main
     files: [esphome/common/base-configuration.yaml]
     refresh: 5s
     
   network_config:
-    url: https://github.com/roving-ronin/myhomeassistant
+    url: https://github.com/wa66wa66/myhomeassistant
     ref: main
     files: [esphome/common/network-wifi.yaml]
     refresh: 5s
